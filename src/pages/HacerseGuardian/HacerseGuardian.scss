@@ -1,0 +1,188 @@
+.b-encabezado{
+    margin-top: 0;
+    width: 100%;
+    height: 20vh;
+    background-color: #F68F24 ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    color:white;
+    font-size: x-large;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    
+}
+
+
+
+.btn-continuar{
+    position: absolute;
+    background-color: #F68F24;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 40px;
+   top: 175px;
+   right: 13.5px;
+     
+}
+    
+
+
+.describe{
+   padding-top: 30px;
+    outline: none;
+    border: 0px;
+    border-color: transparent;
+    margin-bottom: 40px;
+    border-bottom: solid rgb(197, 189, 189) 1px;
+    font-size: larger;
+    width: 94%;
+    
+    &::placeholder {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+      }
+  
+}
+.texto{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 15px;
+    
+}
+.b-global{
+
+  padding-top: 20px;  
+  padding-left: 20px;
+  
+}
+.Ubi{
+    width: 99%;
+    border: 0px;
+    border-bottom: solid rgb(197, 189, 189) 1px;
+    padding: 4px;
+    margin-bottom: 40px;
+   
+    &::placeholder {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+      }
+
+}
+.fotos{
+    width: 99%;
+    border: 0px;
+    border-bottom: solid rgb(197, 189, 189) 1px;
+    padding: 4px;
+    font-weight: bold;
+
+   &::placeholder {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+      }
+
+}
+.form-control{
+    outline: none;
+    border: 0px;
+    border-color: transparent;
+    padding-right: 20px;
+    outline: none;
+    opacity: 0;
+    overflow: hidden;
+    &::placeholder {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+      }
+  
+
+}
+
+
+
+.Titulo{
+    width: 99%;
+    border: 0px;
+    border-bottom: solid rgb(197, 189, 189) 1px;
+    padding: 4px;
+    font-weight: bold;
+    &::placeholder {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+      }
+}
+.Disponibilidad{
+    width: 99%;
+    border: 0px;
+    border-bottom: solid rgb(197, 189, 189) 1px;
+    padding: 4px;
+    margin-top: 40px;
+    font-weight: bold;
+    &::placeholder {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+      }
+
+}
+.Servicios{
+    width: 99%;
+    border: 0px;
+    border-bottom: solid rgb(197, 189, 189) 1px;
+    padding: 4px;
+    margin-top: 40px;
+    font-weight: bold;
+    &::placeholder {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        
+      }
+
+}
+form-control{
+    border-bottom: solid rgb(197, 189, 189) 1px;
+    
+}
+form{
+    border: 0px;
+    border-color: transparent;
+   
+
+
+    padding-right: 20px;
+    outline: none;
+    & input{
+        width: 90%;
+        border: 0px;
+      
+        outline: none;
+    }
+    & textarea{
+        width: 90%;
+        border: 0px;
+
+        outline: none;
+
+    }
+
+
+    .mb-3-title{
+        border-bottom: solid rgb(197, 189, 189) 1px;
+        width: 99%;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding: 4px;
+            
+          
+    } 
+}

@@ -1,0 +1,20 @@
+.p-logo{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__img{
+        width: 25%;
+        height: auto;
+        margin-top: -40%;
+        margin-bottom: 24px;
+
+    }
+
+    &__texto{
+        width: 40%;
+        height: auto;
+    }
+}

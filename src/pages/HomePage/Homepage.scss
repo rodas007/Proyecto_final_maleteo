@@ -1,0 +1,85 @@
+.home{
+  &__title{
+    margin: 35px 53px 10px 12.5px;
+  }
+  &__button{
+    font-weight: bold;
+    padding: 0pt 53pt;
+    text-decoration: none;
+    font-size: 12pt;
+    margin: 0pt 60pt 40pt;
+    cursor: pointer;
+    border: 1px solid #F78712;
+    background-color: white;
+    color: #F78712;
+    width: 250px;
+  }
+}
+
+.container{
+  align-content: center;
+  width: 85%;
+  height: 29pt;
+  text-align: center;
+  border-radius: 3pt;
+  border: none;
+  background-color: rgb(251,251,251);
+}
+
+.where{
+  width: 87%;
+  text-align: center;
+  height: 29pt;
+  background-color: rgb(251,251,251);
+  border-radius: 3pt;
+  border: none;
+}
+.c-form{
+  text-align: center;
+  align-content: center;
+  margin-bottom: 40px;
+}
+.retirada{
+  width: 55%;
+  background-color: rgb(251,251,251);
+  border-radius: 3pt;
+  border: none;
+  text-align: center;
+  margin-top: 9pt;
+}
+
+.b-btn {
+  
+    width: 44vw;
+    height: 40pt;
+    background-color: rgb(246, 143, 36);
+    color: white;
+    text-align: center;
+    border-radius: 3pt;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  
+}
+
+.home__button {
+  font-weight: bold;
+  padding: 0pt 53pt;
+  text-decoration: none;
+  font-size: 12pt;
+  margin: 0pt 60pt 40pt;
+  cursor: pointer;
+  border: 1px solid #F78712;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  color: #F78712;
+  width: 250px;
+  height: 40px;
+}
+
+.p-inputtext {
+  
+ 
+  background: rgb(251,251,251);
+  border: none;
+  padding: 0rem 0.5rem;
+}

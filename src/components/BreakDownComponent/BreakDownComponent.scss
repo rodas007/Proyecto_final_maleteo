@@ -1,0 +1,40 @@
+.c-break-box{
+    
+    height: 580px;
+
+    &-text{
+        font-size: x-large;
+        font-weight: 600;
+        text-align: center;
+        border: 1px solid black;
+        background-color: white;
+    }
+}
+.c-break-title{
+    text-align: center;
+    font-size: xx-large ;
+    
+}
+.c-break-cont{
+    height:  140px;
+   
+}
+.c-text-f{
+  
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.c-cont-f{
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.c-break{
+    background-image: linear-gradient(to bottom, rgb(255, 206, 50), rgb(245, 166, 35));
+    background-repeat: no-repeat;
+    
+     position: absolute;
+     top: 0;
+}

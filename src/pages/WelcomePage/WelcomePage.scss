@@ -1,0 +1,35 @@
+.p-welcome{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    width: 80%;
+    height: 75%;
+    margin-top: -15%;
+    border-radius: 8.5pt;
+    background-color: white;
+    text-align: center;
+    padding: 13pt;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  }
+
+  &__img{
+    width: 45%;
+    height: auto;
+    margin-bottom: 33pt;
+    margin-top: 26.5pt;
+    }
+
+  &__text{
+    width: 180pt;
+    margin: 13pt;
+    text-align: start;
+  }
+
+  &__btn{
+    margin-top: 20pt;
+  }
+}

@@ -1,0 +1,56 @@
+.c-reserva-cont{
+    width: 90%;
+    display: flex;
+    margin-left: 10px;
+    
+    &-1{
+        width: 230px;
+    
+    }
+
+
+    &-2{
+        width: 100px;
+        display: flex;
+        justify-content: right;
+        align-items: flex-start;
+
+        &-img{
+           max-width:  90%; 
+           
+           height: 110px;
+        }
+    }
+}
+.ubicacion{
+    border-bottom: 1px solid black;
+
+
+    &-cont{
+        display: flex;
+        justify-content: space-around;
+
+        &-text{
+            font-weight: bold;
+        }
+    }
+}
+.normas{
+
+
+    &-cont{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.166);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        &-text{
+            
+            color: rgba(0, 0, 0, 0.518);
+        }
+        &-a{
+            text-decoration: none;
+            color: rgba(246, 143, 36);
+        }
+    }
+}

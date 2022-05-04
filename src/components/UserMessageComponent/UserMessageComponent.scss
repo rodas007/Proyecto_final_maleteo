@@ -1,0 +1,54 @@
+.c-msjus-cont{
+    margin-left: 10px;
+
+    &-top{
+        margin-top: 30px;
+        margin-left: 20px;
+
+        &-text{
+            font-weight: 600;
+            font-size: xxx-large;
+        }
+    }
+}
+
+.c-us-cont{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.166);
+    margin-right: 26px;
+    margin-left: 10px;
+}
+
+.c-us-msjs{
+    margin-left: 20px;
+    &-top{
+        display: flex;
+        gap: 16px
+            ;
+
+
+        &-t{
+            font-weight: 600;
+            font-size: x-large;
+            margin-bottom: 0;
+
+        }
+
+        &-a{
+            margin-top: 10px;
+            text-decoration: none;
+            color: rgb(0, 149, 190);
+            font-weight: 
+            600 ;
+
+        }
+       
+    }
+
+    &-mid{
+
+        &-t{
+            margin-bottom: 0px;
+        }
+    }
+}

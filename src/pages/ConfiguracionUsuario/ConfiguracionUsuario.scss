@@ -1,0 +1,72 @@
+
+.b-General{
+    margin-left: 13.5px;
+}
+.b-line{
+    border: solid 0.5px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    
+    height: 0.5px;
+    color: rgb(229, 229, 229);
+    text-align: center;
+    justify-content: center;
+}
+
+.linkto{
+ text-decoration: none;
+ color: black;
+    
+}
+
+.b-div1{
+  
+    margin-top: 6vh;
+}
+
+.b-text{
+    font-weight: 600;
+    font-size: large;
+    color: rgb(121, 120, 120);
+    display: flex;
+    align-items: flex-start;
+
+}
+ .b-divuser{
+     position: absolute;
+     
+     & .b-nombre{
+         font-weight: 300px;
+         font-size: xx-large;
+         color: rgb(34, 34, 34);
+     } 
+     &  .b-text{
+        display: flex;
+        justify-content: baseline;
+        font-weight: 500;
+        color: rgb(123, 122, 122);
+       
+
+}
+ }
+
+.fotoMarta{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 250px;
+    position: relative;
+}
+
+.b-subtitle{
+    font-weight: bold;
+    color: rgb(69, 68, 68);
+    padding-top: 1vh;
+
+    & .b-text{
+        font-weight: 500;
+        color: rgb(148, 148, 148);
+    }
+}
+
+

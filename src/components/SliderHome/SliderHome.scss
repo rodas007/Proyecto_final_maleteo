@@ -1,0 +1,41 @@
+.c-slider{
+&__text{
+
+  padding-top: 120px;
+  padding-left: 13.5px;
+}
+
+
+  
+}
+
+.swiper-slide .swiper-slide-next{
+
+  width: 390px;
+    margin-right: 20px
+}
+.c-news {
+  margin: 6px;
+  padding: 6px;
+
+
+
+
+  &__item{
+
+    margin: 0px;
+  }
+  &__item-img{
+    height: 24vh;
+    width: 46vh;
+    
+  
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+
+   
+}
+}

@@ -1,0 +1,81 @@
+
+
+.cabecera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: column;
+}
+.Fotoprincipal{
+  width: 100%;
+  border-bottom: solid rgb(186, 181, 181) 1px;
+  
+
+}
+
+.primeraFoto {
+  max-width: 65%;
+  height: 40%;
+  margin-bottom: 15px;
+  margin-top: 12px;
+  margin-left: 30px;
+  border-radius: 8px;
+ 
+
+}
+
+.b-espacio {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-color:transparent;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+  color:#4a4a4a;
+  text-decoration: none;
+  font-size: large;
+  width: 200px;
+  height: 50px;
+  outline: none;
+  display: inline-block;
+ 
+}
+.btn-go{
+  border:0px;
+  border-color: transparent;
+  background-color: transparent;
+ align-items: right;
+
+}
+
+.btn-mas{
+  border:0px;
+  border-color: transparent;
+  background-color: transparent;
+  align-items: right;
+  margin-left: 70%;
+  margin-bottom: 50%;
+
+}
+.b-cabecera{
+  margin-top: 70px;
+  margin-left: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.completo{
+  color: grey;
+}
+.tusanuncios{
+  font-weight: bold;
+  font-size: xx-large;
+ 
+
+}
+
+.hall{
+  
+  font-size: x-large;
+  color:#414040;
+}

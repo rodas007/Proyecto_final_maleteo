@@ -1,0 +1,48 @@
+.c-title-primary {
+
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.c-experience{
+  margin: 13.5px;
+
+  &__container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  &__item{
+    margin-bottom: 24px;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__container-img{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+  }
+
+  &__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .title-secondary{
+
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+
+}
